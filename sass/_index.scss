@@ -1,0 +1,310 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.titulo
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    animation: titulo 2s ease-in-out;
+}
+
+p 
+{
+    font-size: $tamaño-letra;
+}
+
+.heladeria
+{
+    margin-left: $marginleft;
+}
+
+.visto
+{
+    text-decoration: none;
+}
+
+.visit
+{
+    text-decoration: none;
+}
+
+.gris
+{
+    color: $color-gris;
+}
+
+.negro
+{
+    color: $color-negro;
+}
+
+.ubi
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    animation: moviendoimagen2 2s 1;
+}
+
+.ubicacion 
+{
+    color: $colorgris;
+    font-size: $tamaño-letra; 
+    animation: moviendoimagen 2s 1;
+}
+
+.visto:hover
+{
+    color: $color-gris;
+}
+
+.visto:visited
+{
+    color: $color-blanco;
+}
+
+.visit:hover
+{
+    color: $color-negro;
+}
+
+.visit:visited
+{
+    color: $color-blanco;
+}
+
+.visit:active
+{
+    color: darkseagreen;
+}
+
+.visto:active
+{
+    color: burlywood;
+}
+
+.der 
+{
+    margin: $margin;
+    padding-left: $paddingleft;
+}
+
+.izq
+{
+    margin: $margin;
+    padding-left: $paddingleft;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.logofiglio
+{
+    width: 90px;
+
+}
+
+nav
+{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li 
+{
+    margin-right: 15px;
+}
+
+nav ul li a 
+{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover 
+{
+    background-color: #444;
+}
+
+
+body 
+{
+    background-image: linear-gradient(to bottom, gray, black);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 
+{
+    text-align: center;
+}
+
+.imagenes 
+{
+    background-color: $color-negro;
+    padding: $tamaño-imagen;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: $marginleft;
+    border: 3px solid black;
+    animation: moviendoimagen 2s 1;
+}
+
+.imagen 
+{
+    background-color: $color-negro;
+    padding: $tamaño-imagen;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: $marginleft;
+    border: 3px solid gray;
+    animation: moviendoimagen 2s 1;
+}
+
+.foot 
+{
+    color: $color-blanco;
+    text-align: center;
+    padding: 10px;
+    font-size: $tamaño-general;
+}
+
+@media screen and (max-width: 768px)
+{
+    img 
+    {
+        width: 200px;
+        height: 200px;
+    }    
+
+    .logofiglio
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ig
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fb
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    img 
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logofiglio
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ig
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fb
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@keyframes moviendoimagen
+{
+    0% 
+    {
+        transform: translateX(-500px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }   
+}
+
+@keyframes moviendoletras
+{
+    0% 
+    {
+        transform: translateX(1000px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }   
+}
+
+@keyframes moviendoimagen2
+{
+    0% 
+    {
+        transform: translateX(1000px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }   
+}
+
+@keyframes titulo
+{
+    0% 
+    {
+        color: gray;
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    75%
+    {
+        color: gray;
+    }
+
+    100% 
+    {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }   
+}

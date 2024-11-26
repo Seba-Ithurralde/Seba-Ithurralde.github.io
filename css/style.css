@@ -1,0 +1,391 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body 
+{
+    background-image: linear-gradient(to bottom, gray, black);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.titulo
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    animation: titulo 2s ease-in-out;
+}
+
+p 
+{
+    font-size: 20px;
+}
+
+.ubicacion 
+{
+    color: gray;
+    font-size: 20px;
+    animation: moviendoimagen 2s 1;
+}
+
+.ubi
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    animation: moviendoimagen2 2s 1;
+}
+
+h1 
+{
+    text-align: center;
+}
+
+.imagenes 
+{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+    animation: moviendoimagen 2s 1;
+}
+
+.imagen 
+{
+    border: 3px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+    animation: moviendoimagen 2s 1;
+}
+
+.fb
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 150px;
+    box-shadow: 100px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    animation: moviendoimagen 2s 1;
+}
+
+.ig 
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 100px;
+    box-shadow: 100px 10px 10px rgba(119, 114, 114, 0.2);
+    animation: moviendoimagen 2s 1;
+}
+
+.chocolate 
+{
+   font-size: 20px;
+   margin-top: 10px;
+   margin: 20px;
+   margin-left: 40px;
+   animation: fondoletras 2s 1;
+}
+
+.texto-choco 
+{
+    color: gray;
+}
+
+.vainilla 
+{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    animation: fondoletras 2s 1;
+}
+
+.frutilla 
+{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    animation: fondoletras 2s 1;
+}
+
+.tamaño 
+{
+    font-size: 20px;
+}
+
+.redes
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.ing 
+{
+    color: gray;
+    font-size: 20px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.fbo 
+{
+    margin: 5px;
+    padding: 20px;
+
+}
+
+.choco 
+{
+    padding-left: 10px;
+}
+
+.fruti 
+{
+    padding-left: 10px;
+}
+
+.vaini 
+{
+    padding-left: 10px;
+}
+
+.logofiglio
+{
+    width: 90px;
+}
+
+nav
+{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li 
+{
+    margin-right: 15px;
+}
+
+nav ul li a 
+{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover 
+{
+    background-color: #444;
+}
+
+.foot 
+{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.gris
+{
+    color: gray;
+}
+
+.negro
+{
+    color: black;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.der 
+{
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.izq
+{
+    margin: 20px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px)
+{
+    img 
+    {
+        width: 200px;
+        height: 200px;
+    }    
+
+    .logofiglio
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ig
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fb
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    img 
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logofiglio
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ig
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fb
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.visto
+{
+    text-decoration: none;
+}
+
+.visit
+{
+    text-decoration: none;
+}
+
+.visto:hover
+{
+    color: gray;
+}
+
+.visto:visited
+{
+    color: white;
+}
+
+.visit:hover
+{
+    color: black;
+}
+
+.visit:visited
+{
+    color: white;
+}
+
+.visit:active
+{
+    color: darkseagreen;
+}
+
+.visto:active
+{
+    color: burlywood;
+}
+
+.heladeria
+{
+    margin-left: 40px;
+}
+
+@keyframes moviendoimagen
+{
+    0% 
+    {
+        transform: translateX(-500px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }   
+}
+
+@keyframes titulo
+{
+    0% 
+    {
+        color: gray;
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    75%
+    {
+        color: gray;
+    }
+
+    100% 
+    {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }   
+}
+
+@keyframes moviendoimagen2
+{
+    0% 
+    {
+        transform: translateX(1000px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }   
+}
