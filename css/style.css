@@ -8,7 +8,7 @@
 
 body 
 {
-    background-color: gray;
+    background-image: linear-gradient (gray, gray);
     align-items: center;
     justify-content: center;
     min-height: 100vh;
