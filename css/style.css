@@ -55,6 +55,7 @@ h1
 {
     border: 3px solid black;
     border-radius: 5px;
+    box-shadow: 100px 10px 10px rgba(49, 47, 47, 0);
     margin-bottom: 10px;
     float: left;
     margin-right: 15px;
@@ -66,6 +67,7 @@ h1
 {
     border: 3px solid gray;
     border-radius: 5px;
+    box-shadow: 100px 10px 10px rgba(75, 72, 72, 0);
     margin-bottom: 10px;
     float: left;
     margin-right: 15px;
